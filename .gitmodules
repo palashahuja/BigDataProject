@@ -1,0 +1,6 @@
+[submodule "sherlock-project"]
+	path = sherlock-project
+	url = https://github.com/mitmedialab/sherlock-project
+[submodule "task2/sherlock-project"]
+	path = task2/sherlock-project
+	url = https://github.com/mitmedialab/sherlock-project
