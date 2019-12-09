@@ -12,4 +12,4 @@ out = list(set(files).difference(set(gg)))
 print (len(out))
 with open("failed.txt", 'w+') as bt:
     for i in out:
-        bt.write(i.split(".")[0] + ".tsv.gz\n" )
+        bt.write(i.split(".")[0] + "\n")
