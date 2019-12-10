@@ -8,5 +8,5 @@ for i in os.listdir(dirr):
         x = json.load(f)
     #print (x)
     out["datasets"].append(x)
-with open("datasets.json", "w") as f:
+with open("task1.json", "w") as f:
     json.dump(out,f)
