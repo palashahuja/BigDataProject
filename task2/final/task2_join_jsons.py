@@ -9,4 +9,4 @@ for i in os.listdir(dirr):
 
     out["predicted_types"].append(x)
 with open("task2.json", "w") as f:
-    json.dump(out,f)
+    json.dump(out,f,indent=4)

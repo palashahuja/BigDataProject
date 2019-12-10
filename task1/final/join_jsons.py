@@ -11,4 +11,4 @@ for i in os.listdir(dirr):
 
     out["datasets"].append(x)
 with open("task1.json", "w") as f:
-    json.dump(out,f)
+    json.dump(out,f,indent=4)
