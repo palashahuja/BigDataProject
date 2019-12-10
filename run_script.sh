@@ -15,6 +15,6 @@ done < $input
 
 date
 
-python get_failed.py
+#python get_failed.py
 
-spark-submit --conf spark.yarn.appMasterEnv.PYSPARK_PYTHON=./env/project_env/bin/python  --archives project_env.zip#env --conf spark.yarn.executor.memoryOverhead=4096 --executor-memory 35G --conf spark.driver.memory=15g --executor-cores 5 --driver-cores 5 --conf spark.default.parallelism=170 op_file.py output.txt session1
+#spark-submit --conf spark.yarn.appMasterEnv.PYSPARK_PYTHON=./env/project_env/bin/python  --archives project_env.zip#env --conf spark.yarn.executor.memoryOverhead=4096 --executor-memory 35G --conf spark.driver.memory=15g --executor-cores 5 --driver-cores 5 --conf spark.default.parallelism=170 op_file.py output.txt session1

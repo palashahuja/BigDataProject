@@ -1,0 +1,41 @@
+{
+    "column_name": "bbs3-q5us.ZIP",
+    "semantic_types": [
+        {
+            "semantic_type": "zip_code",
+            "count": 138671
+        },
+        {
+            "semantic_type": "street_name",
+            "count": 119
+        },
+        {
+            "semantic_type": "person_name",
+            "count": 1
+        },
+        {
+            "semantic_type": "city",
+            "count": 5
+        },
+        {
+            "semantic_type": "school_name",
+            "count": 1145
+        },
+        {
+            "semantic_type": "location_type",
+            "count": 2
+        },
+        {
+            "semantic_type": "business_name",
+            "count": 2
+        },
+        {
+            "semantic_type": "vehicle_type",
+            "count": 3
+        },
+        {
+            "semantic_type": "address",
+            "count": 4536
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "column_name": "cvh6-nmyi.SCHOOL",
+    "semantic_types": [
+        {
+            "semantic_type": "street_name",
+            "count": 4
+        },
+        {
+            "semantic_type": "park_playground",
+            "count": 77
+        },
+        {
+            "semantic_type": "person_name",
+            "count": 12
+        },
+        {
+            "semantic_type": "city",
+            "count": 5
+        },
+        {
+            "semantic_type": "school_name",
+            "count": 1676
+        },
+        {
+            "semantic_type": "location_type",
+            "count": 1
+        },
+        {
+            "semantic_type": "neighborhood",
+            "count": 20
+        },
+        {
+            "semantic_type": "business_name",
+            "count": 19
+        },
+        {
+            "semantic_type": "car_make",
+            "count": 2
+        },
+        {
+            "semantic_type": "address",
+            "count": 1
+        }
+    ]
+}

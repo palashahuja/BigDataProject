@@ -1,7 +1,6 @@
 #!/bin/bash
 
 mkdir -p jsons
-
 input="small.txt"
 x=0
 while IFS= read -r line1
