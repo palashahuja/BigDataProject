@@ -72,7 +72,7 @@ total = df.count()["Column Type"]
 pred_counts_1 = 0
 pred_counts_2 = 0
 pred_counts_3 = 0
-
+labels_output = {}
 for i in os.listdir(dirr):
 	with open(dirr+i, "rb") as f:
 		read = json.load(f)
@@ -100,6 +100,7 @@ for i in os.listdir(dirr):
 	else:
 		pred_counts_3 += 1
 
+	labels_output[i.replace(".json", "")] = consider
 	out = set(file_dict[i.replace(".json", "")]).intersection(set(consider))
 
 	if len(out) > 0:
@@ -110,6 +111,9 @@ for i in os.listdir(dirr):
 
 	for j in list(out):
 		output_stats[j][0] += 1
+
+# with open("predicted_labels.json", 'w') as f:
+# 	json.dump(labels_output, f)
 
 print ("Predcited Type One Counts : ", pred_counts_1)
 print ("Predcited Type Two Counts : ", pred_counts_2)
